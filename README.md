@@ -2,6 +2,9 @@
 ## Overview 
 I'm building a self-hosted web application security lab to practice web application development, vulnerability testing, and security remediation.
 
+# AI Assistance 
+I want to  be honest, I’m still new to some of the tools in this project, so I use AI to help me learn as I go. It helps me understand errors, fix bugs, and get through long coding sections faster. I’m doing the work myself — AI just helps me figure things out and keep moving instead of getting stuck.
+
 # Goals
 -  Build a working web application with authentication and dashboard functionality
 -  Practice fixing and identifying vulnerabilities
