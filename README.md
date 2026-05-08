@@ -1,5 +1,5 @@
 # web-security-home-lab
-# Overview 
+## Overview 
 I'm building a self-hosted web application security lab to practice web application development, vulnerability testing, and security remediation.
 
 # Goals
@@ -15,14 +15,14 @@ I'm building a self-hosted web application security lab to practice web applicat
 
 
 
-Current Project Status
+## Current Project Status
 In Progress
 
 This repository will continue to be updated as new vulnerabilities are identified, documented, and remediated.
 
 ## Technologies & Tools Used
 
-## Web Development
+### Web Development
 - HTML
 - CSS
 - JavaScript
@@ -31,15 +31,16 @@ This repository will continue to be updated as new vulnerabilities are identifie
 - MySQL
 - SQLAlchemy
 
-## Security & Authentication
+### Security & Authentication
 - bcrypt
 - Flask-WTF
 - Flask-Limiter
 
-## Cybersecurity Tools
+### Cybersecurity Tools
 - Kali Linux
 - Security Onion
 
+---
 
 ## Security Concepts Being Tested
 - Authentication Security
@@ -51,9 +52,11 @@ This repository will continue to be updated as new vulnerabilities are identifie
 - Rate Limiting
 - Logging & Monitoring
 
+---
 
 ## Planned Repository Structure
 
+```text
 web-security-home-lab/
 │
 ├── README.md
@@ -62,3 +65,9 @@ web-security-home-lab/
 ├── source-code/
 ├── remediation/
 └── notes/
+```
+
+---
+## Documentation 
+Security findings, remediation steps, and testing notes will be documented throughout the project inside the `/reports` and `/notes` directories.
+
