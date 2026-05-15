@@ -1,1 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/styles.css">
+    <title>Veloxis Networks | Employee Login</title>
+</head>
+<body class="centered-page">
+    <div class="login-logo">
+        <h1>Veloxis Networks</h1>
+    </div>
+    <section class="login-container">
+        <form action="/login"  method="post">
+            <div class="username-login-input">
+                <label for="user">Username:</label>
+                <input type="text" id="user" name="username">
+            
+            </div>
+            <div class="password-login-input">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <button class="reg-login-btn" type="submit">Login</button>    
+            <div class="create-account">
+                <label for="create-account">Don't have an account make one.</label>
+                <a href="register.html" class="create-account-btn">Create an account</a>
+            </div>
+        {% if error %}
+        <p class="error-msg">{{ error }}</p>
+        {% endif %}
+        </form>
+    </section>
 
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>© 2026 Veloxis Networks. All rights reserved.</footer>
+</body>
+
+</html>

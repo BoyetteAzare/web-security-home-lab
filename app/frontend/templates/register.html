@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/styles.css">
+    <title>Veloxis Networks | Register</title>
+</head>
+<body class="centered-page">
+    <div class="reg-logo">
+        <h1>Register</h1>
+    </div>
+    <section class="reg-container">
+        <form action="/register" method="post">
+            <div class="reg-email-input">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email">
+            </div>
+            <div class="reg-username-input">
+                <label for="reg-username">Username</label>
+                <input type="text" id="user" name="username">
+            </div>
+            <div class="reg-password-input">
+                <label for="reg-password">Password:</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <div class="cfm-reg-password-input">
+                <label for="cfm-reg-password">Confirm Password</label>
+                <input type="password" name="confirm_password" id="confirm_password">
+            </div>
+            <button type="submit" class="reg-btn-reg">Register Now</button>
+            <div class="reg-have-acc">
+                <label for="reg-have-acc">Already have an account?</label>
+                <a href="login.html" class="reg-have-acc-btn">Login now</a>
 
+            </div>
+
+        {% if error %}
+        <p class="error-msg">{{ error }}</p>
+        {% endif %}
+        
+        </form>
+    </section>
+
+
+
+
+
+<footer>© 2026 Veloxis Networks. All rights reserved.</footer>
+</body>
+</html>

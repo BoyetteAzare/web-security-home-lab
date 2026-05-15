@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/styles.css">
+    <title>Veloxis Networks | Upload Files</title>
+</head>
+<body>
+    <nav>
+        <div class="dashboard-logo">
+            <h1>Veloxis Networks</h1>
+        </div>
+        <div class="dashboard-logout">
+            <a href="/logout">Log out</a>
+        </div>
+    </nav>
+    <main>
+        <section class="upload-hero">
+            <h2>File Upload</h2>
+            <p>Here you can upload your files</p>
+        </section>
+        <section class="upload-form">
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <label for="file-input" class="custom-file-label">Choose File</label>
+                <input type="file" name="file" id="file-input" class="file-input-hidden">
+                <span class="file-name">No file chosen</span>
+                <button type="submit">Upload File</button>
+
+            </form>
+        </section>
+
+
+
+
+
+    </main>
+
+
+<footer>© 2026 Veloxis Networks. All rights reserved.</footer>
+</body>
+</html>
